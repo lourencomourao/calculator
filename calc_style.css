@@ -23,6 +23,12 @@ body {
     height: 100px;
     padding: 0;
     text-align: center;
+    cursor: pointer;
+    outline: none;
+}
+
+.button:hover {
+    background-color: #4d4d4d;
 }
 
 .function {
@@ -30,8 +36,16 @@ body {
     color: black;
 }
 
+.function:hover {
+    background-color: #8c8c8c;
+}
+
 .operator {
     background-color: #fe9400;
+}
+
+.operator:hover {
+    background-color: #cc7700;
 }
 
 #zero {
